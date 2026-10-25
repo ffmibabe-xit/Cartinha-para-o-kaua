@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uma cartinha para o Kauã 💜</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; padding: 24px 14px;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #563c68;
+    background: linear-gradient(135deg, #fff3fb, #eee3ff, #fff8fc);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .card {
+    width: min(100%, 620px); padding: 28px 22px; text-align: center;
+    border: 2px solid #e5c9f5; border-radius: 24px;
+    background: rgba(255,255,255,.88);
+    box-shadow: 0 12px 35px rgba(111, 69, 139, .14);
+  }
+  .stars { font-size: 22px; letter-spacing: 8px; color: #b68bd5; }
+  h1 { font-size: clamp(27px, 6vw, 38px); margin: 14px 0 8px; }
+  .subtitle { color: #9a78ac; font-family: Arial, sans-serif; font-size: 14px; }
+  button {
+    margin: 22px 0 8px; border: 0; border-radius: 999px; padding: 14px 22px;
+    background: #b58ad1; color: white; font-size: 16px; cursor: pointer;
+    box-shadow: 0 5px 14px rgba(137, 91, 166, .2);
+  }
+  #letter {
+    display: none; text-align: left; line-height: 1.85; font-size: 17px;
+    margin-top: 20px; white-space: pre-line;
+  }
+  .ending { text-align: center; color: #9a69b8; font-style: italic; }
+  .tiny { margin-top: 22px; font-size: 13px; color: #b08bc2; }
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="stars">✦ ✧ ✦</div>
+  <h1>Uma cartinha pra você, Kauã 💜</h1>
+  <div class="subtitle">Feita com carinho, só pra você</div>
+  <p>Tem uma coisinha que eu queria te entregar...</p>
+  <button onclick="document.getElementById('letter').style.display='block'; this.style.display='none';">
+    Abrir minha cartinha ✨
+  </button>
+  <section id="letter">
+    Kauã,
+
+    Eu queria te desejar feliz aniversário de um jeitinho diferente, porque você é alguém muito especial pra mim. Mesmo que às vezes eu não consiga colocar tudo em palavras, quero que você saiba que eu gosto muito de você e que ter você na minha vida significa bastante pra mim.
+
+    Espero que esse novo ciclo venha cheio de coisas boas, momentos felizes, saúde, paz e muitos motivos pra sorrir. Que você consiga realizar seus sonhos, conquistar tudo aquilo que deseja e nunca perca esse seu jeitinho que faz você ser você.
+
+    Peço a Deus que cuide de você em cada passo, te proteja de todo mal, ilumine suas escolhas e esteja contigo até nos dias em que as coisas parecerem difíceis. Que Ele te dê força quando precisar, tranquilidade pro coração e pessoas sinceras ao seu lado.
+
+    Queria que você pudesse enxergar o quanto é importante pra mim. Nem sempre eu sei demonstrar direito, e às vezes fico sem saber o que dizer, mas meu carinho por você é de verdade. Eu torço pela sua felicidade e quero te ver bem, realizando seus planos e vivendo coisas lindas.
+
+    Que seu aniversário seja tão especial quanto você é pra mim, e que esse novo ano da sua vida te traga lembranças boas pra guardar no coração. Você merece receber muito carinho, amor e felicidade, hoje e sempre.
+
+    Feliz aniversário, meu bem. Que Deus abençoe muito sua vida. Obrigada por fazer parte da minha história e por ser alguém que eu guardo com tanto carinho no coração.
+
+    <div class="ending">Com muito carinho, de alguém que te ama. 💜</div>
+  </section>
+  <div class="tiny">✧ um pedacinho do meu coração pra você ✧</div>
+</main>
+</body>
+</html>
